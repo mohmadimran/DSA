@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>session 4 sprint 2 may</h1>
+
+    <script>
+      // 1 make capitalise first letter of string
+    //   let str = "hello";
+
+      // first method
+      //   function capitalFirstletter(str) {
+      //     let sum = str[0].toUpperCase();
+      //     for (let i = 1; i < str.length; i++) {
+      //       sum += str[i];
+      //     }
+      //     return sum;
+      //   }
+      //   console.log(capitalFirstletter(str));
+
+      // second method
+      //   function capitalFirstletter(str) {
+      //     let result = str[0].toUpperCase();
+      //     let subStr = str.slice(1);
+      //     return result + subStr;
+      //   }
+      //   console.log(capitalFirstletter(str));
+
+      // Q.2 capitalize firts leters of each word in given string
+    //   let strName = "my name is khan";
+    //   function firstLeter(strName) {
+    //     let arrayStr = strName.split(" ");
+    //     let arr = [];
+    //     for (let i = 0; i < arrayStr.length; i++) {
+    //       arr[i] = capitalFirstletter(arrayStr[i]);
+    //     }
+    //     return arr.join(" ");
+    //   }
+    //   console.log(firstLeter(strName));
+
+
+    // Q.3 cheak array is in asending order 
+    // let arr = [1,3,4,5]
+
+// function sortArray(arr){
+
+//     for(let i=0; i<arr.length-1; i++){
+//         for(let j= i + 1; j<arr.length; j++){
+//             if(arr[i] > arr[j]){
+//                 return false;
+//             }
+//         }
+//     }
+//     return true ;
+// }
+// console.log(sortArray(arr));
+
+// second method
+// function cheakIsSort(arr){
+//     let left = 0 ;
+//     let right = 0 ;
+//     while(right < arr.length-1){
+//         if(arr[left] > arr[right]){
+//             return false;
+//         }
+//         left++;
+//         right++;
+//     }
+//     return true;
+// }
+//  cheakIsSort(arr);
+
+// Q.5 cheak string palindrome or not
+
+
+
+// Q.6 Problem Description
+// Given a string, count the total number of vowels present in that string.
+
+// Input format
+// First line contains the given string.
+
+// Output format
+// Print the total number of vowels.
+
+// Sample Input 1
+// language
+
+// Sample Output 1
+// 4
+
+// Explanation
+// There are total 4 vowels in the string "language" i.e. 'a', 'u', 'a', 'e'.
+
+// Constraints
+// 0 < Length of string < 100
+
+// function countVowels(word) {
+ 
+//  let temp = 0;
+//    for (let i = 0; i < word.length; i++) {
+//      let char = word[i];
+//      if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u" || char === "A" || char === "E" || char === "I" || char === "O" || char === "U") {
+//  temp++ ;
+//      }
+//    }
+//    return temp;
+//  }
+
+// basic problem
+// let str = 'hello';
+
+// function capitalFirstletter(str){
+//     let newStr = str[0].toUpperCase();
+//     return newStr.slice(1);
+// }
+// console.log(capitalFirstletter(str))
+    </script>
+  </body>
+</html>
